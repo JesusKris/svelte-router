@@ -1,0 +1,13 @@
+build
+tests
+doc
+*.log
+*.tmp
+.vscode
+.github
+.node-version
+pkg
+vite.config.mts
+dist
+.idea
+node_modules
