@@ -1,0 +1,66 @@
+{
+  "name": "svelte-router",
+  "version": "0.0.1",
+  "description": "A feature-rich router exclusively designed for building Single Page Applications (SPA) in Svelte 5",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusKris/svelte-router.git"
+  },
+  "keywords": [
+    "svelte",
+    "router",
+    "svelte-router",
+    "spa",
+    "typescript",
+    "esm",
+    "commonjs"
+  ],
+  "contributors": [
+    {
+      "name": "Robert Kris Laur"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesusKris/svelte-router/issues"
+  },
+  "homepage": "https://github.com/JesusKris/svelte-router#readme",
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@sveltejs/vite-plugin-svelte": "^5.0.1",
+    "@testing-library/svelte": "^5.2.6",
+    "@tsconfig/svelte": "^5.0.4",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-svelte": "^2.46.1",
+    "jsdom": "^25.0.1",
+    "prettier": "^3.4.2",
+    "prettier-plugin-svelte": "^3.3.2",
+    "rollup": "^4.28.1",
+    "rollup-plugin-svelte": "^7.2.2",
+    "semantic-release": "^24.2.0",
+    "svelte": "^5.8.1",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
+  }
+}
